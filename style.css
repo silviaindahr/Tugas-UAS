@@ -1,0 +1,15 @@
+header{
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+body{
+    text-align: center;
+    background-image: url("poiu.jpg");
+    margin-left: 50px;
+    margin-right: 50px;
+}
+img{
+    border-radius: 30%;
+}
+p6{font-size: 30px;}

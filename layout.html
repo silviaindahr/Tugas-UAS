@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>my layout</title>
+    <link rel="icon" type="image/x-icon" href="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(94, 48, 100);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(10, 9, 9);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: rgb(104, 61, 117);
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: rgb(149, 110, 142);
+  height: 100%; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  background-color: #a496a3;
+  border: none;
+  color: rgb(180, 103, 190);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(107, 63, 100);
+  padding: 10px;
+  text-align: center;
+  color: rgb(11, 6, 6);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2 style="background-color: rgb(149, 110, 142);">Profil Mahasiswa</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><button onclick="dokumen.location" class="button" target="_blank"><a href="index.html">home</a></button></li>
+      <li><button onclick="dokumen.location" class="button" target="_blank"><a href="profile.html">profile</a></button></li>
+      <li><button onclick="dokumen.location" class="button" target="_blank"><a href="layout.html">layout</a></button></li>
+    </ul>
+  </nav>
+  
+<article>
+  <h1>home</h1>
+    <p><b><center>Silvia Indah Rahayu</center></b></p>
+  <hr><section><center><img src="via.jpg" alt="via.jpg" usemap="#workmap" width="200" height="259"></img></section></center></hr>
+</body>
+<p1><center>
+<style>
+table, th, td {
+border: 1px solid black;
+}
+</style>
+<hr>
+<h1>BIODATA</h1>
+<p1>Nama : Silvia Indah Rahayu <br> TTL   : Bojonegoro, 26 November 2002 
+    <br> Alamat : RT02/RW02,Ds.Ngadri Kec.Binangun,Blitar <br> Agama : Islam </p1>
+    <hr>
+<h2>AKTIVITAS</h2>
+<p2>Saya seorang Mahasiswa di Universitas Yudharta Pasuruan Prodi Teknik Informatika </p2>
+    <hr>
+<h3>Hobi</h3>
+<p3>1. Vidiografi<br> 2. Fotografi<br> 3. Play spotify<br> 4. Menonton Drakor</p3>
+    <hr>
+<h4>Pendidikan</h4>
+<p5>TK PKK NGADRI: [2007-2009] <br> SDN NGADRI 02: [2009-2015] <br> SMPN KESAMBEN: [2015-2018] <br> SMAN 1 KESAMBEN (Jurusan MIPA): [2018-2021] </p5>
+    <hr>
+<h5>MOTIVASI</h5>
+    <p5>Ubahlah pikiranmu dan kamu dapat mengubah duniamu</p5>
+    <hr>
+<h6>Sosmed</h6>
+    <a href="mailto.someone@example.com">fia4331@gmail.com</a>
+    <hr>
+</center>
+</body>
+  <h2 style="color:rgb(5, 5, 4); font-size: 20px; text-align: center;"><b>Thankyou</b></h2>  
+</article>
+</section>
+
+<footer>
+  <small>Copyright &copy; 2022 - Silvia Indah Rahayu</small>
+</footer>
+
+</body>
+</html>
